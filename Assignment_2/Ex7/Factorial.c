@@ -1,3 +1,5 @@
+//Factorial with for loop
+
 #include <stdio.h>
 
 void main()
