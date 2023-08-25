@@ -2,16 +2,16 @@
 
 void main()
 {
-    int num;
+    int n;
     printf("##########Console-output### \n");
 
     printf("Enter a integer: ");
 
     fflush(stdin); fflush(stdout);
 
-    scanf("%d",&num);
+    scanf("%d",&n);
 
-    printf("You entered: %d \n",num);
+    printf("You entered: %d \n",n);
 
     printf("###########################\n\n\n");
 

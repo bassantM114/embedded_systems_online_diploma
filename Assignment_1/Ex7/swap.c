@@ -16,24 +16,26 @@ a=b-a (6-1=5 now a has the initial value of b)
 
 void main()
 {
-    float a,b;
+    float a, b;
     printf("#########Console_output###### \n");
-   
+
     printf("Enter value of a: ");
-    fflush(stdin); fflush(stdout);
-    scanf("%f",&a);
+    fflush(stdin);
+    fflush(stdout);
+    scanf("%f", &a);
 
     printf("Enter value of b: ");
-    fflush(stdin); fflush(stdout);
-    scanf("%f",&b);
+    fflush(stdin);
+    fflush(stdout);
+    scanf("%f", &b);
     printf("\n");
 
-    a=a-b;
-    b=b+a;
-    a=b-a;
+    a = a - b;
+    b = b + a;
+    a = b - a;
 
-    printf("After swapping, value of a = %g \n",a);
-    printf("After swapping, value of b = %g \n",b);
+    printf("After swapping, value of a = %g \n", a);
+    printf("After swapping, value of b = %g \n", b);
     printf("#############################\n");
     printf("########################################################################");
 }
