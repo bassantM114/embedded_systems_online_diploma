@@ -10,14 +10,14 @@ void main()
 
     if (num1 > num2 && num1 > num3)
     {
-        printf("Largest Number = %f", num1);
+        printf("Largest Number = %.2f", num1);
     }
     else if (num2 > num1 && num2 > num3)
     {
-        printf("Largest Number = %f", num2);
+        printf("Largest Number = %.2f", num2);
     }
     else
     {
-        printf("Largest Number = %f", num3);
+        printf("Largest Number = %.2f", num3);
     }
 }
